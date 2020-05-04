@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalprojectinpractice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PUBLIC AGENCIES"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.activity.OpenAppActivity"
+            android:label="PUBLIC FACILITIES"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.activity.SignupActivity" />
+        <activity android:name=".view.activity.LoginActivity" />
+        <activity
+            android:name=".view.activity.EditActivity"
+            android:label="EDIT UDER PROFILE"/>
+        <activity android:name=".view.activity.detail.detailType.DetailFireStationActivity" />
+        <activity android:name=".view.activity.detail.detailType.DetailPoliceStationActivity" />
+        <activity android:name=".view.activity.detail.detailType.DetailHospitalActivity" />
+        <activity
+            android:name=".view.activity.typeAgencyActivity.PoliceStationAgencyActivity"
+            android:label="POLICE STATION" />
+        <activity
+            android:name=".view.activity.typeAgencyActivity.FireStationAgencyActivity"
+            android:label="FIRE STATION" />
+        <activity
+            android:name=".view.activity.typeAgencyActivity.HospitalAgencyActivity"
+            android:label="HOSPITAL" />
+        <activity android:name=".view.activity.detail.detailCity.DetailAgencyPurwakarta" />
+        <activity android:name=".view.activity.detail.detailCity.DetailAgencyJakartaUtara" />
+        <activity android:name=".view.activity.detail.detailCity.DetailAgencyJakartaTimur" />
+        <activity android:name=".view.activity.detail.detailCity.DetailAgencyJakartaSelatan" />
+        <activity android:name=".view.activity.detail.detailCity.DetailAgencyJakartaBarat" />
+        <activity android:name=".view.activity.detail.detailCity.DetailAgencyBandung" />
+        <activity android:name=".view.activity.MainActivity"></activity>
+    </application>
+
+</manifest>

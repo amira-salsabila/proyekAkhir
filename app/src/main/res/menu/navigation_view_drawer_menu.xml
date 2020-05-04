@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_navigationView_home"
+        android:icon="@drawable/icon_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/menu_navigationView_KotaBandung"
+        android:icon="@drawable/icon_city1"
+        android:title="Kota Bandung"/>
+
+    <item
+        android:id="@+id/menu_navigationView_KabPurwakarta"
+        android:icon="@drawable/icon_city5"
+        android:title="Kabupaten Purwakarta"/>
+
+    <item
+        android:id="@+id/menu_navigationView_JakartaUtara"
+        android:icon="@drawable/icon_city3"
+        android:title="Jakarta Utara"/>
+
+    <item
+        android:id="@+id/menu_navigationView_JakartaSelatan"
+        android:icon="@drawable/icon_city4"
+        android:title="Jakarta Selatan"/>
+
+    <item
+        android:id="@+id/menu_navigationView_JakartaTimur"
+        android:icon="@drawable/icon_city6"
+        android:title="Jakarta Timur"/>
+
+    <item
+        android:id="@+id/menu_navigationView_JakartaBarat"
+        android:icon="@drawable/icon_city2"
+        android:title="Jakarta Barat"/>
+
+    <item
+        android:id="@+id/menu_navigationView_profile"
+        android:icon="@drawable/icon_profile"
+        android:title="Profile"/>
+
+</menu>
